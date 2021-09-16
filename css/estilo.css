@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	font-family: Roboto
+	
+}
+
+.header {
+  background: #615475;
+}
+
+.header .brand-search {
+  padding: 45px 0 36px;
+}
+
+.header .brand-search .logo {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.header .tools {
+  float: right;
+  margin-top: 44px;
+}
+
+.brand-container {
+	text-align: center!important;
+	flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    vertical-align: middle!important;
+}
+
+.header .tools span {
+  color: #FFFFFF;
+  line-height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .tools .account, .header .tools .heart, .header .tools .cart {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.header .tools .account a, .header .tools .heart a, .header .tools .cart a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.addFixed
+{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1248px;
+}
+
+.brand-head {
+		display: flex;
+	justify-content: space-between;
+	flex-basis: calc(33.3% - 40px);
+}
+
+.navbar-main {
+  padding: 18px 0;
+  background: #ffffff;
+}
+
+.navbar-main .navbar-toggler .fa {
+  color: #fff;
+}
+
+.navbar-main .nav-item + .nav-item {
+  margin-left: 50px;
+}
+
+.navbar-main .nav-item .nav-link {
+  color: #6C6E71;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 35px;
+  padding: 0 10px;
+}
+
+.navbar-main .nav-item.active .nav-link {
+  font-weight: 700;
+  color: #615474;
+}
+
+.nav-item {
+	float: left;
+}
+
+
+.search-form{
+    position:absolute;
+    right:0;
+    max-width:100%;
+    z-index:1;
+    margin-top:-6px
+}
+.searchbox-icon,.searchbox-input,.searchbox-submit{
+    height:46px;
+    top:0;
+    right:0;
+    margin:0;
+    outline:0;
+    color:#fff
+}
+.searchbox{
+    float:right;
+    position:relative;
+    min-width:45px;
+    width:0%;
+    height:46px;
+    overflow:hidden;
+    -webkit-transition:width .3s;
+    -moz-transition:width .3s;
+    -ms-transition:width .3s;
+    -o-transition:width .3s;
+    transition:width .3s
+}
+.searchbox-input{
+    border:0;
+    background:#dfe577;
+    width:100%;
+    padding:0 55px 0 20px;
+    font-size:14px;
+    font-family:muliregular,sans-serif;
+    font-weight:400;
+    border-bottom:1px solid #605475
+}
+.searchbox-icon,.searchbox-submit{
+    width:46px;
+    display:block;
+    position:absolute;
+    font-family:verdana;
+    font-size:18px;
+    padding:0;
+    border:0;
+    line-height:46px;
+    text-align:center;
+    cursor:pointer;
+    background-color:#605475
+}
+.searchbox-submit{
+    border-color:#fff
+}
+.searchbox-open{
+    width:780px;
+    max-width:100%
+}
+.searchbox-open .searchbox-input{
+    border-color:#CACACA
+}
+.searchbox-open .searchbox-icon .fa{
+    color:#fff
+}
